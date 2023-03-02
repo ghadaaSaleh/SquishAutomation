@@ -1,0 +1,25 @@
+import { RegularExpression, Wildcard } from 'objectmaphelper.js';
+
+export var addressBookUnnamedWindow = {"text": "Address Book - Unnamed", "type": "Window"};
+export var addressBookUnnamedMenubar = {"container": addressBookUnnamedWindow, "type": "Menubar"};
+export var fileMenuItem = {"container": addressBookUnnamedMenubar, "text": "File", "type": "MenuItem"};
+export var editMenuItem = {"container": addressBookUnnamedMenubar, "text": "Edit", "type": "MenuItem"};
+export var addressBookAddWindow = {"text": "Address Book - Add", "type": "Window"};
+export var addressBookAddForenameLabel = {"container": addressBookAddWindow, "text": "Forename:", "type": "Label"};
+export var addressBookAddForenameEdit = {"container": addressBookAddWindow, "leftObject": addressBookAddForenameLabel, "type": "Edit"};
+export var addressBookAddSurnameLabel = {"container": addressBookAddWindow, "text": "Surname:", "type": "Label"};
+export var addressBookAddSurnameEdit = {"container": addressBookAddWindow, "leftObject": addressBookAddSurnameLabel, "type": "Edit"};
+export var addressBookAddEmailLabel = {"container": addressBookAddWindow, "text": "Email:", "type": "Label"};
+export var addressBookAddEmailEdit = {"container": addressBookAddWindow, "leftObject": addressBookAddEmailLabel, "type": "Edit"};
+export var addressBookAddPhoneLabel = {"container": addressBookAddWindow, "text": "Phone:", "type": "Label"};
+export var addressBookAddPhoneEdit = {"container": addressBookAddWindow, "leftObject": addressBookAddPhoneLabel, "type": "Edit"};
+export var addressBookAddOKButton = {"container": addressBookAddWindow, "text": "OK", "type": "Button"};
+export var addressBookUnnamedToolbar = {"container": addressBookUnnamedWindow, "type": "Toolbar"};
+export var addToolbarItem = {"container": addressBookUnnamedToolbar, "text": "Add", "type": "ToolbarItem"};
+export var addressBookAddCancelButton = {"container": addressBookAddWindow, "text": "Cancel", "type": "Button"};
+export var addressBookUnnamedAddressGridTable = {"container": addressBookUnnamedWindow, "name": "addressGrid", "type": "Table"};
+export var addressGrid14TableCell = {"column": 4, "container": addressBookUnnamedAddressGridTable, "row": 1, "type": "TableCell"};
+export var addressGridPhoneHeaderItem = {"container": addressBookUnnamedAddressGridTable, "text": "Phone", "type": "HeaderItem"};
+export var addressGrid24TableCell = {"column": 4, "container": addressBookUnnamedAddressGridTable, "row": 2, "type": "TableCell"};
+export var addressBookUnnamedScrollBar = {"container": addressBookUnnamedWindow, "occurrence": 2, "type": "ScrollBar"};
+export var addressBookUnnamedScrollBar_2 = {"container": addressBookUnnamedWindow, "type": "ScrollBar"};

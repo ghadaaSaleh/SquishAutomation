@@ -1,0 +1,10 @@
+<testconfig version="1.0">
+    <information>
+        <summary/>
+        <description>UI test</description>
+    </information>
+    <tags>
+        <tag>systemTest</tag>
+    </tags>
+    <testsettings/>
+</testconfig>
